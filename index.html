@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="password" id="pwd">
+    <input type="checkbox" id="chk">showPassWord
+    <script>
+        const pwd =document.getElementById("pwd");
+        const chk = document.getElementById("chk")
+        chk.onchange = function(e){
+            pwd.type = chk.checked ? "text" : "password";
+        };
+
+        if(window.navigator.geolocation){
+            navigator.geolocation.getCurrentPosition(position =>{
+                const Result =  Latitude , Longitude  = position.coords;
+                console.log(Result);
+            },
+            err =>{
+                console.error(err.code);
+            });
+        }    
+        
+        </script>
+</body>
+</html>
