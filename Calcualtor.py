@@ -1,20 +1,15 @@
 import time
-
 Welcometext = 'Welcome to My Simple Python Calculator'
 print(Welcometext)
-
 # Adding a delay of 2 seconds
 time.sleep(2)
-
 num1 = int(input('Enter your First Number: '))
 num2 = int(input('Enter your Second Number: '))
-
 print("Choose Calculation: \n"
       "1. Addition \n"
       "2. Subtraction \n"
       "3. Multiply \n"
       "4. Divide ")
-
 choice = int(input("Enter the number for your desired calculation: "))
 
 if choice == 1:
