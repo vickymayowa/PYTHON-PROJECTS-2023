@@ -26,7 +26,7 @@ def send_email(sender_email, sender_password, recipient_email, subject, message)
 # Example usage
 sender_email = 'your email '
 sender_password = 'your pasword'
-recipient_email = 'favouradebanjo2@gmail.com'
+recipient_email = 'your email'
 subject = 'Test Email'
 message = 'This is a test email sent from Python.'
 
