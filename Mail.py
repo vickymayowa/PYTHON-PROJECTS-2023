@@ -24,8 +24,8 @@ def send_email(sender_email, sender_password, recipient_email, subject, message)
     smtp_server.quit()
 
 # Example usage
-sender_email = 'favouradebanjo603@gmail.com'
-sender_password = 'edel rlcf kido xtte'
+sender_email = 'your email '
+sender_password = 'your pasword'
 recipient_email = 'favouradebanjo2@gmail.com'
 subject = 'Test Email'
 message = 'This is a test email sent from Python.'
